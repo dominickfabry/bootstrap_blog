@@ -13,3 +13,10 @@
  *= require_tree ./main
  *= require_self
  */
+
+
+ body {
+    margin: 0;
+    padding: 0;
+    background: rgb(248, 238, 238);
+}

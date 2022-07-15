@@ -6,11 +6,7 @@
     font-weight: normal;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: rgb(28, 28, 28);
-}
+
 
 .calculator-grid {
     display: grid;
@@ -19,6 +15,9 @@ body {
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    margin: 0;
+    padding: 0;
+    background: rgb(28, 28, 28);
 }
 
 .calculator-grid>button {

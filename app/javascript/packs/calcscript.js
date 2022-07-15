@@ -32,7 +32,7 @@
  *
  *
  */
-
+ document.addEventListener('DOMContentLoaded', function () {
 
 class Calculator {
 
@@ -49,6 +49,8 @@ class Calculator {
         this.previousOperandText = previousOperandText
         this.currentOperandText = currentOperandText
         this.clear()
+
+
     }
     /**
      * Method clears the calculator of all current information, sets current and previous operands to empty string (clears it).
@@ -285,3 +287,6 @@ equalsButton.addEventListener('click', () => {
     calculator.compute()
     calculator.updateDisplay()
 })
+
+
+ }, 2000)
